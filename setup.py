@@ -42,14 +42,14 @@ def main():
             ],
             "mysql": [
                 "mysql-connector-python",
-                "sqlalchemy >= 1.4.22, != 1.4.33, < 2.0.0",
+                "sqlalchemy >= 2.0.29",
             ],
             "newmode": ["newmode"],
             "ngpvan": ["suds-py3"],
             "mobilecommons": ["bs4"],
             "postgres": [
                 "psycopg2-binary>=2.9.9",
-                "sqlalchemy >= 1.4.22, != 1.4.33, < 2.0.0",
+                "sqlalchemy >= 2.0.29",
             ],
             "redshift": [
                 "boto3",
